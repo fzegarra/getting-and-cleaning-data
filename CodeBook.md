@@ -58,15 +58,3 @@ angle(): Angle between some vectors.
 To obtain a single data set the training and test sets were merged in a single data. Also variables were labeled with the names assigned by the features. The mean and standar deviation were extracted.
 
 The final tidy data set contains 10299 observations with 81 variables.
-
-
-
-
-
-
-
-
-
-
-
-
