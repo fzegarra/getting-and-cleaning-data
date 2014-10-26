@@ -15,7 +15,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Summary
 
-To complete the task the project intstructions were defined as:
+To complete the task the project instructions were defined as:
  
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -24,6 +24,9 @@ To complete the task the project intstructions were defined as:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each 
 variable for each activity and each subject.
 
+### CodeBook
+
+In the codebook readers will find a detailed explanation of how was thought and wrote the script according to the instructions and the logical development of the composition of the data
 
 
 
