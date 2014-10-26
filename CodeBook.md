@@ -64,7 +64,7 @@ In order to extract the mean and standar deviation measurements of the data set 
 
 To merge the dataset by activity the script used the "merge" function. That merges the activity lables to the data set created by the activityId column that describes the training and test labels.
 
-###. Section 4. Appropriately labels the data set with descriptive variable names. 
+### Section 4. Appropriately labels the data set with descriptive variable names. 
 
 The data set with descriptive variable names used the "gsub" function to match and replace patterns in the column names.
 
