@@ -4,7 +4,7 @@
 
 The current repository contains the R script and the CodeBook of the Project Course "Getting and Cleaning data" part of the Data Science specialization
 
-The project consists in the collection, work, clean and the preparation of tidy data of a set of files in the .txt format.
+The project consists in the collection, work, clean and preparation of tidy data of a set of files in the .txt format.
 
 ### Data Source
 
