@@ -15,7 +15,6 @@ For each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 The dataset includes the files:
-=========================================
 
 - 'README.txt'
 
