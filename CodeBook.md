@@ -45,6 +45,8 @@ The following files are available for the train and test data. Their description
 
 ### Process Description to obtain Tidy Data
 
+### Section 1. Merges the training and the test sets to create one data set.
+
 Download the data from the URL into a working directory that later must be seted. In this case the adress was:
 D:/DataScience/WorkingDirectory/run_analysis
 
@@ -56,11 +58,25 @@ Once the common and individual data was readed this one needs to be merged. The 
 
 In the process of merging the cleaning is developed. The idea is to obtain a data set when teh activity labels and feautures are defined. That one of the reasons to assign column names to the tables.
 
+### Section 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 In order to extract the mean and standar deviation measurements of the data set it was used the "grepl" function. That allows us select the pattern that we need to work. This selection by patterns then were saved in a vector than then is compared whith the column names to substract the information that we need.
 
-To merge the dataset by activity the script used the "merge" function. That merges the activity lables to the data set created by the activityId column that describes the training and tes labels.
+### Section 3. Uses descriptive activity names to name the activities in the data set
 
-To 
+To merge the dataset by activity the script used the "merge" function. That merges the activity lables to the data set created by the activityId column that describes the training and test labels.
+
+###. Section 4. Appropriately labels the data set with descriptive variable names. 
+
+The data set with descriptive variable names used the "gsub" function to match and replace patterns in the column names.
+
+### Section 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+It was used the ddply functionality to obtain the average of the data by subject and label.
+
+
+
+
+
 
 
 
