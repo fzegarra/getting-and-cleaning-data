@@ -3,6 +3,7 @@
 ### Description
 
 The current repository contains the R script the and the CodeBook of the Project Course "Getting and Cleaning data"
+
 The project consists in the collection, work, clean and the preparation of tidy data of a set of files in the .txt format.
 
 ### Data Source
